@@ -133,6 +133,8 @@ This will launch Storybook on port `3003` and the Slice Builder on port `9999`, 
 
 > ℹ We are aware that it will be more convenient to launch Storybook and the Slice Builder with a single command and are working on it~
 
+> ⚠ We noticed that in some rare case you can get stuck in a `401 [Unauthorized]` loop prompting you to log in. If this happen to you check if your Prismic repository was created, if not, try running `$ yarn prismic login` and `$ yarn prismic sm --bootstrap` again.
+
 For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://www.slicemachine.dev/documentation/slice-builder#using-the-slice-builder).
 
 ## 🚀 &nbsp;Deploying Your Storybook
