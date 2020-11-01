@@ -1,6 +1,6 @@
 {
   "name": "slice-library-starter-nuxt",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "An awesome Slice Library made with Nuxt.js",
   "author": "<author>",
   "license": "MIT",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "prismic-cli": "3.8.3-beta.0",
-    "shx": "0.3.2",
+    "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.38",
     "sm-commons": "^0.0.23"
   }

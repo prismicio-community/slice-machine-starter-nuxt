@@ -1,7 +1,7 @@
-import sm from "./sm.json";
+import smConfig from "./sm.json";
 
-if (!sm.apiEndpoint) {
-  console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck `Getting Started` section of the README file :)");
+if (!smConfig.apiEndpoint) {
+  console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)");
 }
 
 export default {
@@ -36,7 +36,7 @@ export default {
   buildModules: [],
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [["@nuxtjs/prismic", {
-    endpoint: sm.apiEndpoint || "",
+    endpoint: smConfig.apiEndpoint || "",
     apiOptions: {
       routes: [{
         type: "page",
