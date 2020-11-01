@@ -96,6 +96,8 @@ Finally, and since that's a requirement for this contest, you will want to boots
 $ yarn prismic sm --add-storybook
 ```
 
+This should create a simple Storybook inside your project. Bear in mind though that this one is still quite basic, feel free to go fancy by adding [addons](https://storybook.js.org/addons) and more! Here's an example of a more elaborated Storybook documentation of a slice library for inspiration: [sms-hoy-storybook.netlify.app](https://sms-hoy-storybook.netlify.app)
+
 Well done! You are now ready to start developing your slice library with Slice Machine.
 
 ## 👩‍💻 &nbsp;Developing
