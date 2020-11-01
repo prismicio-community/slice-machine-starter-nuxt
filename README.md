@@ -1,6 +1,6 @@
 # Slice Library Nuxt.js Starter
 
-> Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next).
+> Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next#readme).
 
 A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [Slice Machine](https://slicemachine.dev) for [#SliceContest](https://prismic.io/blog/slice-contest). This document is here to help you through the whole process of creating your library but is not comprehensive to what you can do, unleash your creativity!
 
