@@ -164,7 +164,7 @@ Congratulations! You documentation is now hosted and will update itself whenever
 To host your Storybook documentation on Vercel go to: [vercel.com/import](https://vercel.com/import).
 
 Once on the page click "**Continue**" under "**Import Git Repository**", you might need to create an account or to log in if not already.
-After you logged in paste the GitHub repository URL you worked on in the dedicated field, Vercel might ask for access to your account.
+After you logged in, paste the GitHub repository URL you worked on in the dedicated field and click "**Continue**", Vercel might ask for access to your account.
 
 On the last build options step every default should be good and Nuxt.js should have already been selected. We already took care of configuring everything to deploy your documentation. Click "**Deploy**" and wait for the magic to happen.
 
