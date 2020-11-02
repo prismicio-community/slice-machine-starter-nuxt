@@ -2,7 +2,7 @@
 
 > Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next#readme).
 
-A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [Slice Machine](https://slicemachine.dev) for [#SliceContest](https://prismic.io/blog/slice-contest). This document is here to help you through the whole process of creating your library but is not comprehensive to what you can do, unleash your creativity!
+A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [Slice Machine](https://slicemachine.dev) for [#SliceContest](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost). This document is here to help you through the whole process of creating your library but is not comprehensive to what you can do, unleash your creativity!
 
 - [📚 &nbsp;Useful Links](#user-content--useful-links)
 - [🏁 &nbsp;Getting Started](#user-content--getting-started)
@@ -19,7 +19,7 @@ A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [S
 
 ## 📚 &nbsp;Useful Links
 
-- [📣 &nbsp;Contest Announcement Blog Post](https://prismic.io/blog/slice-contest), check rules and additional information there!
+- [📣 &nbsp;Contest Announcement Blog Post](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost), check rules and additional information there!
 - [🌐 &nbsp;Contest Forum Section](https://community.prismic.io/c/slice-machine/slicecontest), get help and share feedback here~
 - [🔪 &nbsp;Slice Machine Documentation](https://www.slicemachine.dev/documentation), to learn more about Slice Machine
 - [📖 &nbsp;Prismic Vue.js Documentation](https://prismic.io/docs/vuejs/getting-started/with-the-vuejs-starter), to learn more about Prismic with Vue.js
@@ -181,4 +181,4 @@ To keep track of your progress and to be sure not to miss anything here's a simp
 - [ ] The Storybook documentation is hosted here: <!-- https://example.com -->
 - [ ] My library does not contain any non-public licensed assets
 
-> ☝️ For comprehensive rules refer to the contest [blog post](https://prismic.io/blog/slice-contest).
+> ☝️ For comprehensive rules refer to the contest [blog post](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost).
