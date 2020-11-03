@@ -98,6 +98,8 @@ $ yarn prismic sm --add-storybook
 
 This should create a simple Storybook inside your project. Bear in mind though that this one is still quite basic, feel free to go fancy by adding [addons](https://storybook.js.org/addons) and more! Here's an example of a more elaborated Storybook documentation of a slice library for inspiration: [sms-hoy-storybook.netlify.app](https://sms-hoy-storybook.netlify.app)
 
+> ⚠ Storybook is known for being quite picky with its dependencies. If you experience a blank page when running it with a lot of errors in the browser console try deleting your lock file and installing dependencies again, should fix the issue.
+
 Well done! You are now ready to start developing your slice library with Slice Machine.
 
 ## 👩‍💻 &nbsp;Developing
@@ -134,6 +136,8 @@ $ yarn prismic sm --develop
 This will launch Storybook on port `3003` and the Slice Builder on port `9999`, you can open a third terminal to create slices from or launch other commands...
 
 > ℹ We are aware that it will be more convenient to launch Storybook and the Slice Builder with a single command and are working on it~
+
+> ⚠ Storybook is known for being quite picky with its dependencies. If you experience a blank page when running it with a lot of errors in the browser console try deleting your lock file and installing dependencies again, should fix the issue.
 
 > ⚠ We noticed that in some rare case you can get stuck in a `401 [Unauthorized]` loop prompting you to log in when running the Slice Machine develop command. If this happens to you check if your Prismic repository was created, if not, try running `$ yarn prismic login` and `$ yarn prismic sm --bootstrap` again.
 
