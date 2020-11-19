@@ -1,3 +1,11 @@
+### **🚨⚠🚨 Storybook `6.0.x` Static Deployment Issue 🚨⚠🚨**
+
+**Storybook `6.0.x` has an issue when building it static for deployment. This issue is preventing navigation between stories when visiting it, and is a known of Storybook ([storybookjs/storybook#11958](https://github.com/storybookjs/storybook/issues/11958)). Thankfully as of `11/19/2020` Storybook `6.1.0` [has been released](https://www.npmjs.com/package/@storybook/vue), fixing this bug.**
+
+**If you are running Storybook `6.0.x`, which most of you should be by using the Nuxt.js Storybook module prior to `11/19/2020`, you can upgrade to Storybook `6.1.0` by deleting your `yarn.lock` or `package-lock.json`, as well as your `node_modules` folder (just to be on the safe side), you can then run `$ yarn install` or `$ npm install` again. This should take the latest version of Storybook: you can check it by inspecting your lock file and looking for (`ctrl+f`) `@storybook/vue`, installed version should be visible under the key `version` of the lock definition, it should be `6.1.0` or higher.**
+
+**In any case regarding _#SliceContest_ if even after attempting this fix your deployed version of Storybook does not behave as it does in development mode (`$ yarn storybook`), have no worries, we will attempt to run it in development mode if we notice something is wrong.**
+
 # Slice Library Nuxt.js Starter
 
 > Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next#readme).
