@@ -6,7 +6,7 @@
 
 **In any case regarding _#SliceContest_ if even after attempting this fix your deployed version of Storybook does not behave as it does in development mode (`$ yarn storybook`), have no worries, we will attempt to run it in development mode if we notice something is wrong.**
 
-# Slice Library Nuxt.js Starter
+# Slice Library Nuxt.js Starter [[#SliceContest: Slice Builder Release]](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost)
 
 > Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next#readme).
 
