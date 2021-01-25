@@ -6,11 +6,11 @@
   "license": "MIT",
   "main": "slices/index.js",
   "scripts": {
-    "nuxt:dev": "nuxt",
+    "dev": "nuxt",
     "nuxt:build": "nuxt build",
-    "nuxt:start": "nuxt start",
-    "nuxt:generate": "nuxt generate",
-    "build": "yarn build-storybook && shx mv storybook-static dist",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
     "slicemachine": "start-slicemachine --port 9999"
@@ -18,15 +18,15 @@
   "dependencies": {
     "@nuxtjs/prismic": "^1.2.4",
     "@prismicio/vue": "^2.0.7",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.7",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
     "nuxt-sm": "^0.0.6",
-    "vue-slicezone": "^0.0.28"
+    "vue-slicezone": "^0.0.29"
   },
   "devDependencies": {
-    "prismic-cli": "3.8.3-beta.0",
+    "prismic-cli": "3.8.5",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.0.38",
+    "slice-machine-ui": "^0.0.43",
     "sm-commons": "^0.0.23"
   }
 }
