@@ -22,8 +22,7 @@ A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [S
 
 - [📣 &nbsp;Contest Announcement Blog Post](https://prismic.io/blog/slice-contest-2nd-edition?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost), check rules and additional information there! (starting soon 👀)
 - [🌐 &nbsp;Contest Forum Section](https://community.prismic.io/c/slice-machine/slicecontest), get help and share feedback here~
-- [📖 &nbsp;Prismic Nuxt.js Documentation](https://prismic.io/docs/technologies/getting-started-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=nuxtjsdoc), to learn more about Prismic with Vue.js
-- [🔪 &nbsp;Slice Builder Documentation for Nuxt.js](https://prismic.io/docs/technologies/the-slice-builder-nuxtjs#using-the-slice-builder?utm_campaign=devexp&utm_source=github&utm_medium=slicebuilderdoc), to learn more about the Slice Builder
+- [📖 &nbsp;Prismic Nuxt.js Documentation](https://prismic.io/docs/technologies/tutorial-series-introduction-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=nuxtjsdoc), to learn more about Prismic with Nuxt.js
 
 ## 🏁 &nbsp;Getting Started
 
@@ -105,7 +104,7 @@ Well done! You are now ready to start developing your slice library with Slice M
 
 ## 👩‍💻 &nbsp;Developing
 
-Some quick reminders to help you developing your library with Slice Machine and the Slice Builder. Please refer to the [documentation](https://prismic.io/docs/technologies/the-slice-builder-nuxtjs#using-the-slice-builder?utm_campaign=devexp&utm_source=github&utm_medium=slicebuilderdoc) if you are looking for more in-depth knowledge.
+Some quick reminders to help you developing your library with Slice Machine and the Slice Builder. Please refer to the [documentation](https://prismic.io/docs/technologies/query-content-from-cms-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=nuxtdoc) if you are looking for more in-depth knowledge.
 
 ### Creating a Slice
 
@@ -120,7 +119,7 @@ This will create a new directory inside `./slices` named after the provided slic
 
 Slices behave just like any regular Nuxt.js component but receives a `slice` prop containing its slice fields. They are run in a Nuxt context meaning that any configuration / module you add to your `nuxt.config.js` file will reflect as expected on those. For example, if you want to use Tailwind CSS, its [setup](https://tailwindcss.nuxtjs.org/setup) remains exactly the same with `@nuxtjs/tailwindcss`.
 
-For comprehensive documentation about creating your own slices check the dedicated [documentation](https://prismic.io/docs/technologies/create-your-own-slices-components-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=slicebuilderdoc).
+For comprehensive documentation about creating your own slices check the dedicated [documentation](https://prismic.io/docs/technologies/generate-model-component-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=nuxtdocslices).
 
 ### Launching the Slice Builder
 
@@ -142,13 +141,13 @@ This will launch Storybook on port `3003` and the Slice Builder on port `9999`, 
 
 > ⚠ We noticed that in some rare case you can get stuck in a `401 [Unauthorized]` loop prompting you to log in when running the Slice Machine develop command. If this happens to you check if your Prismic repository was created, if not, try running `$ yarn prismic login` and `$ yarn prismic sm --bootstrap` again.
 
-For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://prismic.io/docs/technologies/the-slice-builder-nuxtjs#using-the-slice-builder?utm_campaign=devexp&utm_source=github&utm_medium=slicebuilderdoc).
+For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://prismic.io/docs/technologies/generate-model-component-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=slicebuilderdoc).
 
 ### Creating Your Showcase Website
 
 Once you are done developing your slice library (or in between!) you can start creating your showcase website. This part should involve little to no code!
 
-First make sure you [pushed all your slices to Prismic](https://prismic.io/docs/technologies/the-slice-builder-nuxtjs#push-and-use-slices-in-custom-types.?utm_campaign=devexp&utm_source=github&utm_medium=pushslicedoc) and that you added them to the default "**page**" custom type.
+First make sure you [pushed all your slices to Prismic](https://prismic.io/docs/technologies/add-content-models-cms-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=pushslicedoc) and that you added them to the default "**page**" custom type.
 
 You can then create a new document, give it the UID of `home` (this starter is configured to use `home` as the index `/` URL). From here you're free to compose your showcase website within the writing room using your very slices! You're also more than welcome to go further, by adding a [header and a footer](https://prismic.io/docs/technologies/nav-bars-footers-and-menus-nuxtjs?utm_campaign=devexp&utm_source=github&utm_medium=partialsdoc) for example!
 
