@@ -24,9 +24,9 @@
     "vue-slicezone": "^0.0.29"
   },
   "devDependencies": {
-    "prismic-cli": "3.8.6",
+    "prismic-cli": "3.8.7",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.0.43",
+    "slice-machine-ui": "^0.0.44-alpha.2",
     "sm-commons": "^0.0.23"
   }
 }
