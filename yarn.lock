@@ -7707,6 +7707,13 @@ object.values@^1.1.0:
     es-abstract "^1.18.0-next.1"
     has "^1.0.3"
 
+oembed-parser@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.4.5.tgz#0556464be3cc339f3dd441a55b362968e070345c"
+  integrity sha512-CTrwqBizddDtlKDZ66JXYiSKCGePLiY5mSTx7oZohbyuG3WwuJnP1D8ZCR7BJhgDBpvJwyZqpPHD5a7pRVYPOg==
+  dependencies:
+    node-fetch "^2.6.1"
+
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -10096,10 +10103,10 @@ slash@3.0.0, slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slice-machine-ui@^0.0.44-alpha.2:
-  version "0.0.44-alpha.2"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.44-alpha.2.tgz#021bb6b88673f1ef5e4ed54e38046482a971cb6f"
-  integrity sha512-wte+pkjjE3/yliBHIQMbrKY9YTaNVvZo1Yr60Rw/OtQwGsDBSuFPEIOczkNgjUJ27PSFxxDoiOigtCtEHZJEyQ==
+slice-machine-ui@^0.0.44-alpha.6:
+  version "0.0.44-alpha.6"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.44-alpha.6.tgz#531c3ef043e80dc6430de3d2bcce53e5e962daf6"
+  integrity sha512-+HYOxSQjR7b6ruGNj4bmYGtSAruiUdnRbQxWZNnxe+82dehLGsaPgc9yXrXn065jds+E0AoSO3hLRJ9V+qGHJA==
   dependencies:
     "@babel/register" "^7.11.5"
     "@reach/menu-button" "^0.10.5"
@@ -10123,6 +10130,7 @@ slice-machine-ui@^0.0.44-alpha.2:
     lorem-ipsum "^2.0.3"
     mime "^2.4.6"
     multer "^1.4.2"
+    oembed-parser "^1.4.5"
     parse-domain "^3.0.2"
     prompts "^2.4.0"
     puppeteer "^5.0.0"
