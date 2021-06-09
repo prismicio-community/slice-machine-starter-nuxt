@@ -6,7 +6,7 @@
 
 ### Learn more about using Prismic with Nuxt.js
 
-[Prismic + Nuxt.js documentation](hhttps://prismic.io/docs/technologies/nuxtjs).
+[Prismic + Nuxt.js documentation.](https://prismic.io/docs/technologies/nuxtjs)
 
 ### License
 
