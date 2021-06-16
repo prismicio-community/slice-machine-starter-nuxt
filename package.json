@@ -12,7 +12,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
-    "prismic": "prismic",
+    "storybook": "nuxt storybook",
+    "build-storybook": "nuxt storybook build",
     "slicemachine": "start-slicemachine --port 9999"
   },
   "dependencies": {
