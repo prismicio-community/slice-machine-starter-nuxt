@@ -3,5 +3,5 @@
   "libraries": [
     "@/slices"
   ],
-  "_latest": "0.0.46"
+  "_latest": "0.1.0"
 }
