@@ -1,10 +1,9 @@
 import smConfig from "./sm.json";
+import { getStoriesPaths } from "slice-machine-ui/helpers/storybook";
 
 if (!smConfig.apiEndpoint) {
   console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)");
 }
-
-const { getStoriesPaths } = require('slice-machine-ui/helpers/storybook')
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -53,7 +52,10 @@ export default {
   build: {
     transpile: ["vue-slicezone", "nuxt-sm"]
   },
-  storybook :{
-    stories: [...getStoriesPaths(), /*...*/]
-  }
+  storybook: {
+    // This is a bug with `getStoriesPaths` and Nuxt that is awaiting to be fixed
+    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
+  },
+  // This is a bug with `getStoriesPaths` and Nuxt that is awaiting to be fixed
+  ignore: [...getStoriesPaths().map(path => path.replace("../", "~/"))],
 };
