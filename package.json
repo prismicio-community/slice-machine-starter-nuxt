@@ -28,6 +28,7 @@
   "devDependencies": {
     "@nuxtjs/storybook": "^4.1.1",
     "core-js": "^3.18.2",
+    "postcss-loader": "3.0.0",
     "sass": "^1.42.1",
     "sass-loader": "^10.1.0"
   },
