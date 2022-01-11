@@ -1,0 +1,75 @@
+{
+  "slices": {
+    "components": {
+      "jknjn": {
+        "library": "slices",
+        "id": "jknjn",
+        "name": "Jknjn",
+        "description": "Jknjn",
+        "model": {
+          "id": "jknjn",
+          "type": "SharedSlice",
+          "name": "Jknjn",
+          "description": "Jknjn",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Jknjn",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "jknjn",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "E-enable synergistic web services",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Irure fugiat elit velit non voluptate laborum reprehenderit laborum et veniam sint velit. Voluptate tempor aliqua aliqua magna aute qui cupidatat ex adipisicing eu cupidatat minim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
